@@ -97,7 +97,7 @@
 # ---------- 第三方 Packages（仅保留 manifest.json 与 packages-lock.json） ----------
 /Packages/com.unity.postprocessing/
 
-# ---------- 第三方插件 / 二进制库（保留自研网络框架 Summer） ----------
+# ---------- 第三方插件 / 二进制库（保留网络框架 Summer） ----------
 /Assets/Assets/Plugins/Animancer/
 /Assets/Assets/Plugins/Animancer.meta
 /Assets/Assets/Plugins/Demigiant/

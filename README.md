@@ -16,7 +16,7 @@
 | 界面 | UGUI（Login / RoleList / 战斗 HUD / 聊天） |
 | 动画 | Animancer（动画状态机与事件回调） |
 | 补间 / 反馈 | DOTween（相机受击抖动） |
-| 网络 | Summer（自研 TCP 长连接框架的客户端侧：`Connection` / `SocketReceiver` / `MessageRouter`） |
+| 网络 | Summer（TCP 长连接框架的客户端侧：`Connection` / `SocketReceiver` / `MessageRouter`） |
 | 通信协议 | Google Protobuf |
 | 配置序列化 | Newtonsoft.Json |
 | 日志 | Serilog |
@@ -72,7 +72,7 @@ Assets/
     ├── Animator/            # 动画状态机（HeroAnimations）
     ├── GUI_Parts/           # 战斗 HUD（技能栏、冷却）
     ├── Plugins/
-    │   └── Summer/          # 自研网络框架（客户端侧）
+    │   └── Summer/          # 网络框架（客户端侧）
     │       ├── Core/        # DataStream 二进制编解码
     │       ├── Network/     # Connection / SocketReceiver / MessageRouter
     │       └── Proto/       # Protobuf 生成的消息类
